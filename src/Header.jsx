@@ -13,7 +13,8 @@ export default function Header() {
     <div className={navOpen ? 'nav-open' : ''}>
       <div>
         <img
-          src='src/assets/devjane.png'
+          className='header-img'
+          src='src/assets/yasin-tall.jpeg'
           alt=''
         />
       </div>
