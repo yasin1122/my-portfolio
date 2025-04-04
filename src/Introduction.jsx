@@ -1,3 +1,5 @@
+import myPicSquare from './assets/yasin-square.jpg'
+
 export default function Introduction() {
   return (
     <>
@@ -11,7 +13,7 @@ export default function Introduction() {
           Full Stack Engineer
         </p>
         <img
-          src='src/assets/yasin-square.jpg'
+          src={myPicSquare}
           alt='a picture of Yasin Cakal smiling'
           className='intro__img'></img>
       </section>

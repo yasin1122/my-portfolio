@@ -1,3 +1,5 @@
+import myPicTall from './assets/yasin-tall.jpeg'
+
 export default function About() {
   return (
     <>
@@ -25,7 +27,7 @@ export default function About() {
         </div>
 
         <img
-          src='src/assets/yasin-tall.jpeg'
+          src={myPicTall}
           alt='Jane leaning against a bus'
           className='about-me__img'
         />

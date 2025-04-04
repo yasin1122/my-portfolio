@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import myPicTall from './assets/yasin-tall.jpeg'
 
 export default function Header() {
   const [navOpen, setNavOpen] = useState(false)
@@ -14,7 +15,7 @@ export default function Header() {
       <div>
         <img
           className='header-img'
-          src='src/assets/yasin-tall.jpeg'
+          src={myPicTall}
           alt=''
         />
       </div>
