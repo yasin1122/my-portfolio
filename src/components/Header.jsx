@@ -1,5 +1,7 @@
+// src/components/Header.jsx
 import { useState } from 'react'
-import myPicTall from './assets/yasin-tall.jpeg'
+import { Link } from 'react-router-dom'
+import picSquare from '/src/assets/yasin-square.jpg'
 
 export default function Header() {
   const [navOpen, setNavOpen] = useState(false)
@@ -8,59 +10,57 @@ export default function Header() {
     setNavOpen(prev => !prev)
   }
 
-  console.log(navOpen)
-
   return (
-    <div className={navOpen ? 'nav-open' : ''}>
-      <div>
+    <header className={navOpen ? 'nav-open' : ''}>
+      <div className='logo'>
         <img
           className='header-img'
-          src={myPicTall}
-          alt=''
+          src={picSquare}
+          alt='Logo'
         />
       </div>
       <button
-        onClick={toggleNav}
         className='nav-toggle'
+        onClick={toggleNav}
         aria-label='toggle navigation'>
         <span className='hamburger'></span>
       </button>
       <nav className='nav'>
         <ul className='nav__list'>
           <li className='nav__item'>
-            <a
+            <Link
               onClick={toggleNav}
-              href='#home'
+              to='/'
               className='nav__link'>
               Home
-            </a>
+            </Link>
           </li>
           <li className='nav__item'>
-            <a
+            <Link
               onClick={toggleNav}
-              href='#services'
+              to='/#services'
               className='nav__link'>
               My Services
-            </a>
+            </Link>
           </li>
           <li className='nav__item'>
-            <a
+            <Link
               onClick={toggleNav}
-              href='#about'
+              to='/#about'
               className='nav__link'>
-              About Me
-            </a>
+              About me
+            </Link>
           </li>
           <li className='nav__item'>
-            <a
+            <Link
               onClick={toggleNav}
-              href='#My Work'
+              to='/#work'
               className='nav__link'>
               My Work
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   )
 }

@@ -1,17 +1,18 @@
+// src/components/Footer.jsx
 export default function Footer() {
   return (
     <footer className='footer'>
       <a
-        href='mailto:hello@yasin.dev'
+        href='mailto:hello@jane.dev'
         className='footer__link'>
-        hello@yasin.dev
+        hello@jane.dev
       </a>
       <ul className='social-list'>
         <li className='social-list__item'>
           <a
             className='social-list__link'
             href='https://codepen.io'>
-            <i class='fab fa-codepen'></i>
+            <i className='fab fa-codepen'></i>
           </a>
         </li>
         <li className='social-list__item'>
