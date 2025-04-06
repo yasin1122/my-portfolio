@@ -4,27 +4,30 @@ export default function Services() {
     <section
       className='my-services'
       id='services'>
-      <h2 className='section__title section__title--services'>What I do</h2>
+      <h2 className='section__title section__title--services'>Education</h2>
       <div className='services'>
         <div className='service'>
-          <h3>Design + Development</h3>
+          <h3>SUNY Albany</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Earned my Bachelor of Science in Computer Science from the
+            University at Albany (SUNY) with Cum Laude honors and made the
+            Dean’s List.
           </p>
         </div>
         <div className='service'>
-          <h3>E-Commerce</h3>
+          <h3>Certifications</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Acquired more than 10 certifications in Front-End and Backend
+            Development from self-taught platforms such as Scrimba, Udemy, and
+            Codecademy.
           </p>
         </div>
         <div className='service'>
-          <h3>WordPress</h3>
+          <h3>Continuous Learning</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Improve my skillset by consistently solving DSA challenges on
+            LeetCode and refining my front-end expertise through hands-on
+            projects on Frontend Mentor.
           </p>
         </div>
       </div>

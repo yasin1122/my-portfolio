@@ -4,12 +4,6 @@ import portfolio01 from '../assets/portfolio-01.jpg'
 import portfolio02 from '../assets/portfolio-02.jpg'
 import portfolio03 from '../assets/portfolio-03.jpg'
 import portfolio04 from '../assets/portfolio-04.jpg'
-import portfolio05 from '../assets/portfolio-05.jpg'
-import portfolio06 from '../assets/portfolio-06.jpg'
-import portfolio07 from '../assets/portfolio-07.jpg'
-import portfolio08 from '../assets/portfolio-08.jpg'
-import portfolio09 from '../assets/portfolio-09.jpg'
-import portfolio10 from '../assets/portfolio-10.jpg'
 
 const portfolioData = {
   1: {
@@ -32,36 +26,6 @@ const portfolioData = {
     title: 'Portfolio 04',
     description: 'Detailed info about portfolio project 04.',
     imgSrc: portfolio04
-  },
-  5: {
-    title: 'Portfolio 05',
-    description: 'Detailed info about portfolio project 05.',
-    imgSrc: portfolio05
-  },
-  6: {
-    title: 'Portfolio 06',
-    description: 'Detailed info about portfolio project 06.',
-    imgSrc: portfolio06
-  },
-  7: {
-    title: 'Portfolio 07',
-    description: 'Detailed info about portfolio project 07.',
-    imgSrc: portfolio07
-  },
-  8: {
-    title: 'Portfolio 08',
-    description: 'Detailed info about portfolio project 08.',
-    imgSrc: portfolio08
-  },
-  9: {
-    title: 'Portfolio 09',
-    description: 'Detailed info about portfolio project 09.',
-    imgSrc: portfolio09
-  },
-  10: {
-    title: 'Portfolio 10',
-    description: 'Detailed info about portfolio project 10.',
-    imgSrc: portfolio10
   }
 }
 
