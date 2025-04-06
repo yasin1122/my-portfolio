@@ -3,9 +3,9 @@ export default function Footer() {
   return (
     <footer className='footer'>
       <a
-        href='mailto:hello@jane.dev'
+        href='yasincakal@gmail.com'
         className='footer__link'>
-        hello@jane.dev
+        yasincakal@gmail.com
       </a>
       <ul className='social-list'>
         <li className='social-list__item'>
