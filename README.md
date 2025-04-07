@@ -1,3 +1,5 @@
+<img width="1064" alt="portfolio-screenshot" src="https://github.com/user-attachments/assets/6398ab03-e326-4f0a-8721-8c326fe81f5d" />
+
 # My Portfolio
 
 A personal portfolio website built with React to showcase my projects, skills, and professional experience.
