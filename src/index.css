@@ -10,6 +10,90 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Portfolio Item Container */
+.portfolio__item {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Link wrapping the image */
+.portfolio__link {
+  display: block;
+  position: relative;
+}
+
+/* Portfolio Image with Zoom Effect */
+.portfolio__img {
+  width: 100%;
+  display: block;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+/* Description Overlay */
+.portfolio__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(48, 48, 48, 0.5); /* Semi-transparent dark overlay */
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-light);
+  font-weight: bold;
+  text-shadow: 1px 1px 10px var(--clr-accent);
+  text-align: center;
+  transition: opacity 250ms ease-in-out;
+  padding: 1em;
+}
+
+/* Hover State: Show Overlay & Zoom Image */
+.portfolio__item:hover .portfolio__overlay {
+  opacity: 1;
+}
+
+.portfolio__item:hover .portfolio__img {
+  transform: scale(1.2);
+}
+
+/* GitHub Icon Styling */
+.portfolio__github {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+
+  /* Use a solid (or semi-transparent) background that contrasts the underlying image */
+  background: rgba(255, 255, 255, 0.9);
+
+  /* Fix width and height to form a circle */
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+
+  /* Flex centering to keep the icon in the middle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Increase font size for better visibility */
+  font-size: 1.5rem;
+  color: #000; /* Adjust icon color as desired */
+
+  /* Add a small box shadow for extra contrast */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+  /* Other styling */
+  transition: transform 250ms ease-in-out;
+  z-index: 2;
+  text-decoration: none;
+}
+
+.portfolio__github:hover {
+  transform: scale(1.1);
+}
+
 :root {
   --ff-primary: 'Lora', serif;
   --ff-secondary: 'Roboto Slab', serif;
