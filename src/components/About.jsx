@@ -17,7 +17,7 @@ export default function About() {
           free programming courses. As a natural problem solver, I tackle
           challenges with enthusiasm and consistently deliver reliable, on-time
           results. Outside of work, my daily running routine keeps me
-          disciplined and focused. Outside of work, my daily running routine
+          disciplined and focused.Outside of work, my daily running routine
           keeps me disciplined and focused.
         </p>
       </div>
