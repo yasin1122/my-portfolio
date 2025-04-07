@@ -6,6 +6,10 @@
 
 /* Custom Properties, update these for your own design */
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --ff-primary: 'Lora', serif;
   --ff-secondary: 'Roboto Slab', serif;

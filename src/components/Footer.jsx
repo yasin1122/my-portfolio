@@ -1,7 +1,9 @@
 // src/components/Footer.jsx
 export default function Footer() {
   return (
-    <footer className='footer'>
+    <footer
+      id='footer'
+      className='footer'>
       <h3>- Contact Me -</h3>
       <ul className='social-list'>
         <li className='social-list__item'>

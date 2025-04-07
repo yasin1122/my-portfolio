@@ -1,6 +1,7 @@
 // src/components/Header.jsx
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 export default function Header() {
   const [navOpen, setNavOpen] = useState(false)
@@ -28,36 +29,40 @@ export default function Header() {
             </Link>
           </li>
           <li className='nav__item'>
-            <Link
+            <HashLink
               onClick={toggleNav}
+              smooth
               to='/#services'
               className='nav__link'>
               Education
-            </Link>
+            </HashLink>
           </li>
           <li className='nav__item'>
-            <Link
+            <HashLink
               onClick={toggleNav}
+              smooth
               to='/#about'
               className='nav__link'>
               About
-            </Link>
+            </HashLink>
           </li>
           <li className='nav__item'>
-            <Link
+            <HashLink
               onClick={toggleNav}
+              smooth
               to='/#work'
               className='nav__link'>
               Projects
-            </Link>
+            </HashLink>
           </li>
           <li className='nav__item'>
-            <Link
+            <HashLink
               onClick={toggleNav}
+              smooth
               to='/#footer'
               className='nav__link'>
               Contact Me
-            </Link>
+            </HashLink>
           </li>
         </ul>
       </nav>
