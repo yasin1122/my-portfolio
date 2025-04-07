@@ -42,6 +42,7 @@ html {
   align-items: center;
   justify-content: center;
   color: var(--clr-light);
+  font-size: 2rem;
   font-weight: bold;
   text-shadow: 1px 1px 10px var(--clr-accent);
   text-align: center;
