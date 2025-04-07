@@ -16,7 +16,7 @@ const portfolioItems = [
   {
     id: 2,
     imgSrc: portfolio02,
-    alt: 'Sushi Front End',
+    alt: 'Sushi Restaurant',
     githubURL: 'https://github.com/yasin1122/sushi-site',
     liveURL: 'https://sushi-site.vercel.app/'
   },

@@ -5,7 +5,6 @@ import Introduction from './components/Introduction'
 import Services from './components/Services'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
-import PortfolioItem from './components/PortfolioItem'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -25,10 +24,6 @@ export default function App() {
               <Portfolio />
             </>
           }
-        />
-        <Route
-          path='/portfolio/:id'
-          element={<PortfolioItem />}
         />
       </Routes>
       <Footer />
