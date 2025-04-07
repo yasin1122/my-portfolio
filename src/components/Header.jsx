@@ -1,7 +1,6 @@
 // src/components/Header.jsx
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import picSquare from '/src/assets/yasin-square.jpg'
 
 export default function Header() {
   const [navOpen, setNavOpen] = useState(false)
@@ -12,13 +11,6 @@ export default function Header() {
 
   return (
     <header className={navOpen ? 'nav-open' : ''}>
-      <div className='logo'>
-        <img
-          className='header-img'
-          src={picSquare}
-          alt='Logo'
-        />
-      </div>
       <button
         className='nav-toggle'
         onClick={toggleNav}
@@ -40,7 +32,7 @@ export default function Header() {
               onClick={toggleNav}
               to='/#services'
               className='nav__link'>
-              My Services
+              Education
             </Link>
           </li>
           <li className='nav__item'>
@@ -48,7 +40,7 @@ export default function Header() {
               onClick={toggleNav}
               to='/#about'
               className='nav__link'>
-              About me
+              About
             </Link>
           </li>
           <li className='nav__item'>
@@ -56,7 +48,7 @@ export default function Header() {
               onClick={toggleNav}
               to='/#work'
               className='nav__link'>
-              My Work
+              Projects
             </Link>
           </li>
         </ul>

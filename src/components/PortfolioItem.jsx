@@ -1,31 +1,42 @@
 // src/components/PortfolioItem.jsx
 import { useParams, Link } from 'react-router-dom'
-import portfolio01 from '../assets/portfolio-01.jpg'
-import portfolio02 from '../assets/portfolio-02.jpg'
-import portfolio03 from '../assets/portfolio-03.jpg'
-import portfolio04 from '../assets/portfolio-04.jpg'
+import portfolio01 from '../assets/budget-site.png'
+import portfolio02 from '../assets/sushi-site.png'
+import portfolio03 from '../assets/react-jobs.png'
+import portfolio04 from '../assets/assembly-endgame.png'
 
 const portfolioData = {
   1: {
-    title: 'Portfolio 01',
+    title: 'Budgeting App',
     description:
-      'Detailed info about portfolio project 01. Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate.',
-    imgSrc: portfolio01
+      'A minimalist budgeting app built with React and React Router, enabling users to track income, expenses, and manage budgets with ease.',
+    imgSrc: portfolio01,
+    gitHubLink: 'https://github.com/yasin1122/budget-app',
+    siteURL: 'https://budget-app-two-tau.vercel.app/'
   },
   2: {
-    title: 'Portfolio 02',
-    description: 'Detailed info about portfolio project 02.',
-    imgSrc: portfolio02
+    title: 'Sushi Restaurant',
+    description:
+      'A stylish sushi website featuring modern design and responsive navigation for an immersive user experience.',
+    imgSrc: portfolio02,
+    gitHubLink: 'https://github.com/yasin1122/sushi-site',
+    siteURL: 'https://sushi-site.vercel.app/'
   },
   3: {
-    title: 'Portfolio 03',
-    description: 'Detailed info about portfolio project 03.',
-    imgSrc: portfolio03
+    title: 'React Jobs',
+    description:
+      'A React-powered job board that aggregates listings specifically for React developers, offering a clean, user-friendly interface.',
+    imgSrc: portfolio03,
+    gitHubLink: 'https://github.com/yasin1122/react-jobs',
+    siteURL: 'https://react-jobs-proj.netlify.app/'
   },
   4: {
-    title: 'Portfolio 04',
-    description: 'Detailed info about portfolio project 04.',
-    imgSrc: portfolio04
+    title: 'Assembly Endgame',
+    description:
+      'A Programmers take on the classic "Hangman" game to save the world from the dreaded task of writing Assembly code.',
+    imgSrc: portfolio04,
+    gitHubLink: 'https://github.com/yasin1122/Assembly-Endgame',
+    siteURL: 'https://assembly-endgame-proj.netlify.app/'
   }
 }
 
@@ -41,9 +52,27 @@ export default function PortfolioItem() {
     <div className='portfolio-item-individual'>
       <h1>{item.title}</h1>
       <p>{item.description}</p>
+      <button
+        className='btn-link'
+        onClick={() =>
+          window.open(item.gitHubLink, '_blank', 'noopener,noreferrer')
+        }>
+        Source Code
+      </button>
+      <button
+        className='btn-link'
+        onClick={() =>
+          window.open(item.siteURL, '_blank', 'noopener,noreferrer')
+        }>
+        Live Demo
+      </button>
       <img
         src={item.imgSrc}
         alt={item.title}
+        style={{ cursor: 'pointer' }}
+        onClick={() =>
+          window.open(item.siteURL, '_blank', 'noopener,noreferrer')
+        }
       />
       <Link
         to='/'
