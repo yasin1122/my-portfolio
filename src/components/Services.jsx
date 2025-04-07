@@ -57,7 +57,8 @@ export default function Services() {
       </div>
       <a
         target='_blank'
-        href='/src/assets/2025 Resume Yasin Cakal.pdf'
+        href='/yasin_cakal_portfolio.pdf'
+        download='Yasin_Cakal_Portfolio.pdf'
         className='btn'>
         Download My Portfolio
       </a>
