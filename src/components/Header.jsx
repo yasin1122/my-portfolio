@@ -51,6 +51,14 @@ export default function Header() {
               Projects
             </Link>
           </li>
+          <li className='nav__item'>
+            <Link
+              onClick={toggleNav}
+              to='/#footer'
+              className='nav__link'>
+              Contact Me
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
