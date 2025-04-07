@@ -14,7 +14,7 @@ export default function Introduction() {
       </p>
       <img
         src={picSquare}
-        alt='A picture of Jane Smith smiling'
+        alt='A picture of Yasin Cakal smiling'
         className='intro__img'
       />
     </section>
