@@ -8,14 +8,31 @@ export default function Experience() {
 
       <div className='experience__container'>
         <div className='experience__highlight'>
-          <h3>Truveta Notes Annotation Team</h3>
+          <h3>Truveta - Notes Annotation Team</h3>
           <p className='experience__intro'>
-            Contributed to internal labeling platform as part of the Notes Annotation team, helping clinical experts
-            produce training data for the Truveta Language Model (TLM) with data from 30 US health systems.
+            As a core member of the Notes Annotation team, I helped build and maintain the internal labeling platform that enables
+            clinical experts to produce high-quality training data for the Truveta Language Model (TLM). This platform processes
+            and manages healthcare data from 30 US health systems, playing a crucial role in advancing AI-driven healthcare insights.
           </p>
         </div>
 
         <div className='experience__grid'>
+          <div className='experience__card'>
+            <div className='card__icon'>🏗️</div>
+            <h4 className='card__title'>Full-Stack Feature Development</h4>
+            <p className='card__description'>
+              <strong>Designed reusable patterns adopted team-wide.</strong> Built end-to-end: search with deep-linkable
+              results, server-side filters with HashSet-based permissions, team CRUD, persisted
+              user settings. Drove RBAC migration across 3 repositories.
+            </p>
+            <div className='card__tech'>
+              <span className='tech__pill'>TypeScript</span>
+              <span className='tech__pill'>NestJS</span>
+              <span className='tech__pill'>Redux Toolkit</span>
+              <span className='tech__pill'>Material UI</span>
+            </div>
+          </div>
+
           <div className='experience__card'>
             <div className='card__icon'>🚀</div>
             <h4 className='card__title'>Testing Infrastructure Pioneer</h4>
@@ -61,22 +78,6 @@ export default function Experience() {
               <span className='tech__pill'>Cosmos DB</span>
               <span className='tech__pill'>.NET</span>
               <span className='tech__pill'>React</span>
-            </div>
-          </div>
-
-          <div className='experience__card'>
-            <div className='card__icon'>🏗️</div>
-            <h4 className='card__title'>Full-Stack Feature Development</h4>
-            <p className='card__description'>
-              <strong>Designed reusable patterns adopted team-wide.</strong> Built end-to-end: search with deep-linkable
-              results, server-side filters with HashSet-based permissions, team CRUD, persisted
-              user settings. Drove RBAC migration across 3 repositories.
-            </p>
-            <div className='card__tech'>
-              <span className='tech__pill'>TypeScript</span>
-              <span className='tech__pill'>NestJS</span>
-              <span className='tech__pill'>Redux Toolkit</span>
-              <span className='tech__pill'>Material UI</span>
             </div>
           </div>
         </div>
