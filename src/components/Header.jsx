@@ -50,6 +50,15 @@ export default function Header() {
             <HashLink
               onClick={toggleNav}
               smooth
+              to='/#experience'
+              className='nav__link'>
+              Experience
+            </HashLink>
+          </li>
+          <li className='nav__item'>
+            <HashLink
+              onClick={toggleNav}
+              smooth
               to='/#work'
               className='nav__link'>
               Projects

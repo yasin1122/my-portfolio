@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Introduction from './components/Introduction'
 import Services from './components/Services'
 import About from './components/About'
+import Experience from './components/Experience'
 import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 
@@ -21,6 +22,7 @@ export default function App() {
               <Introduction />
               <Services />
               <About />
+              <Experience />
               <Portfolio />
             </>
           }

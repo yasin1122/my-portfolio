@@ -4,28 +4,27 @@ export default function Services() {
     <section
       className='my-services'
       id='services'>
-      <h2 className='section__title section__title--services'>Education</h2>
+      <h2 className='section__title section__title--services'>Education & Background</h2>
       <div className='services'>
         <div className='service'>
-          <h3>Diploma</h3>
+          <h3>Computer Science Degree</h3>
           <p>
-            Earned my Bachelor of Science in Computer Science from the
-            University at Albany (SUNY) with Cum Laude honors and made the
-            Dean’s List.
+            B.S. in Computer Science from University at Albany (SUNY)
+            <strong> Cum Laude, Dean's List</strong> | Class of 2017
           </p>
         </div>
         <div className='service'>
-          <h3>Certifications</h3>
+          <h3>Professional Journey</h3>
           <p>
-            Earned over 10 certifications in Front-End and Backend Development
-            from self-taught platforms such as Scrimba, Udemy, and Codecademy.
+            From freelance developer (2017-2020) to Full-Stack Developer at Code of Code,
+            now Software Engineer at Truveta building ML training platforms.
           </p>
         </div>
         <div className='service'>
-          <h3>Practice Daily</h3>
+          <h3>Continuous Learning</h3>
           <p>
-            By consistently solving DSA challenges on LeetCode and refining my
-            front-end expertise through hands-on projects on Frontend Mentor.
+            Stay current with latest technologies through hands-on projects,
+            technical documentation, and active contribution to team knowledge sharing.
           </p>
         </div>
       </div>

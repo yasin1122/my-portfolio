@@ -41,9 +41,9 @@ export default function Portfolio() {
     <section
       className='my-work'
       id='work'>
-      <h2 className='section__title section__title--work'>Projects</h2>
+      <h2 className='section__title section__title--work'>Early Projects</h2>
       <p className='section__subtitle section__subtitle--work'>
-        A Selection of My Personal Projects
+        Personal Projects from My Journey (2023-2024)
       </p>
       <div className='portfolio'>
         {portfolioItems.map(item => (

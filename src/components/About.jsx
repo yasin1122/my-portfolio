@@ -12,14 +12,16 @@ export default function About() {
       </p>
       <div className='about-me__body'>
         <p>
-          Software Engineer (Full Stack) with experience at Truveta, where I
-          built testing infrastructure from the ground up, drove 80% code coverage,
-          and owned security for two teams. I specialize in React, TypeScript,
-          .NET, and E2E testing with Playwright. Previously worked as a Full-Stack
-          Developer at Code of Code and as a Freelance Web Developer. I hold a
-          B.S. in Computer Science from SUNY Albany (Cum Laude, Dean's List).
-          As a natural problem solver, I tackle challenges with enthusiasm and
-          consistently deliver reliable, on-time results.
+          Software Engineer with a proven track record at Truveta, where I became the
+          <strong>first engineer to implement CI testing</strong>, achieving 80% code coverage
+          across the stack. I transformed page load times from 30 seconds to under 1 second,
+          owned security for 20+ engineers, and built scalable full-stack features adopted team-wide.
+        </p>
+        <p>
+          My expertise spans TypeScript, React, .NET, and Playwright testing, with a focus on
+          performance optimization and developer experience. I hold a B.S. in Computer Science
+          from SUNY Albany (Cum Laude) and bring experience from previous roles at Code of Code
+          and as a Freelance Developer.
         </p>
       </div>
       <img
