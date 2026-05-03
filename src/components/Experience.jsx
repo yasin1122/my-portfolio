@@ -20,32 +20,36 @@ export default function Experience() {
             <div className='achievement'>
               <h4>🚀 Testing Infrastructure Pioneer</h4>
               <p>
-                First engineer at the company to implement testing in CI. Built Playwright E2E suite from scratch,
-                including page objects, fixtures, and CI pipeline integration. Drove code coverage to 80%.
+                <strong>First engineer at Truveta to put testing into CI.</strong> Built Playwright E2E suite from scratch with
+                page objects, fixtures, interactive pnpm CLI, and pipeline integration. Drove full-stack code coverage to 80%
+                using Istanbul across React, NestJS, and .NET layers.
               </p>
             </div>
 
             <div className='achievement'>
               <h4>🔒 Security & DevOps Owner</h4>
               <p>
-                Sole owner of security for two teams (20 engineers). Handled all Snyk alerts, CVE remediation,
-                and SAST sweeps. Regularly unblocked CI/CD pipelines and carried monthly on-call rotation.
+                <strong>Sole owner of security for two teams (20 engineers).</strong> Resolved CVEs in @nestjs/*, axios, lodash,
+                uuid, protobufjs. Led 15+ file Open Redirect SAST sweep. Regularly unblocked CI/CD pipelines within an hour.
+                Carried monthly on-call rotation through PagerDuty/Jira migration.
               </p>
             </div>
 
             <div className='achievement'>
               <h4>⚡ Performance Optimization</h4>
               <p>
-                Cut project list page load from 20-30 seconds to under 1 second through V2 to V3 migration,
-                introducing pagination and eliminating redundant queries.
+                <strong>Cut page load from 20-30 seconds to under 1 second.</strong> Owned V2 to V3 migration end-to-end,
+                introduced pagination, eliminated redundant full-table count queries, and implemented lazy-fetching
+                for per-user favorites from Cosmos DB.
               </p>
             </div>
 
             <div className='achievement'>
               <h4>🏗️ Full-Stack Feature Development</h4>
               <p>
-                Designed and built features end-to-end: search with deep-linkable results, server-side filters,
-                team management CRUD, and reusable paginated list patterns adopted team-wide.
+                <strong>Designed reusable patterns adopted team-wide.</strong> Built end-to-end features: search with deep-linkable
+                results, server-side filters with HashSet-based permission intersection, team management CRUD, persisted
+                user settings. Drove RBAC migration across three repositories.
               </p>
             </div>
           </div>

@@ -32,9 +32,9 @@ export default function Header() {
             <HashLink
               onClick={toggleNav}
               smooth
-              to='/#services'
+              to='/#experience'
               className='nav__link'>
-              Education
+              Experience
             </HashLink>
           </li>
           <li className='nav__item'>
@@ -50,9 +50,9 @@ export default function Header() {
             <HashLink
               onClick={toggleNav}
               smooth
-              to='/#experience'
+              to='/#services'
               className='nav__link'>
-              Experience
+              Education
             </HashLink>
           </li>
           <li className='nav__item'>
