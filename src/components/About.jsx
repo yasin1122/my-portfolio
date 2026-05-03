@@ -6,18 +6,20 @@ export default function About() {
     <section
       className='about-me'
       id='about'>
-      <h2 className='section__title section__title--about'>📍 Kent, WA</h2>
+      <h2 className='section__title section__title--about'>📍 Bellevue, WA</h2>
       <p className='section__subtitle section__subtitle--about'>
         Willing to Commute, Work Remotely, Travel or Relocate!
       </p>
       <div className='about-me__body'>
         <p>
-          Full Stack Engineer with strong technical skills and a passion for
-          programming. I have authored 15 beginner- friendly books and created
-          free programming courses. As a natural problem solver, I tackle
-          challenges with enthusiasm and consistently deliver reliable, on-time
-          results. Outside of work, my daily running routine keeps me
-          disciplined and focused.
+          Software Engineer (Full Stack) with experience at Truveta, where I
+          built testing infrastructure from the ground up, drove 80% code coverage,
+          and owned security for two teams. I specialize in React, TypeScript,
+          .NET, and E2E testing with Playwright. Previously worked as a Full-Stack
+          Developer at Code of Code and as a Freelance Web Developer. I hold a
+          B.S. in Computer Science from SUNY Albany (Cum Laude, Dean's List).
+          As a natural problem solver, I tackle challenges with enthusiasm and
+          consistently deliver reliable, on-time results.
         </p>
       </div>
       <img

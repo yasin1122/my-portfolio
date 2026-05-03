@@ -10,7 +10,7 @@ export default function Introduction() {
         Hi, I am <strong>Yasin Cakal</strong>
       </h1>
       <p className='section__subtitle section__subtitle--intro'>
-        Full Stack Engineer
+        Software Engineer (Full Stack)
       </p>
       <img
         src={picSquare}

@@ -34,24 +34,24 @@ export default function Services() {
       </h2>
       <div className='services'>
         <div className='service'>
-          <h3>Front-End</h3>
+          <h3>Frontend</h3>
           <p>
-            HTML, CSS, JavaScript, Figma (UI/UX), Tailwind, React, TypeScript,
-            Bootstrap, Bulma.
+            React, Redux Toolkit, Material UI, TanStack, Next.js, Tailwind,
+            Figma, TypeScript, JavaScript, HTML/CSS
           </p>
         </div>
         <div className='service'>
-          <h3>Backend</h3>
+          <h3>Backend & Data</h3>
           <p>
-            APIs, Express, Node, MongoDB, Next, SQL (MySQL, PostgreSQL), Python,
-            C, Java.
+            .NET, NestJS, REST APIs, JSON Schema codegen, Cosmos DB, MongoDB,
+            PostgreSQL, C#, Python, SQL
           </p>
         </div>
         <div className='service'>
-          <h3>Other</h3>
+          <h3>DevOps & Testing</h3>
           <p>
-            Git, GitHub, Bash/Shell, AI/ML (OpenAI, Claude), Docker, Wordpress,
-            Agile, Linux.
+            Playwright (E2E testing), Jest, Azure DevOps, CI/CD pipelines (YAML),
+            Docker, Git, pnpm monorepos, Snyk, Wiz CLI, Datadog, Observe
           </p>
         </div>
       </div>
