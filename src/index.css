@@ -14,6 +14,9 @@ html {
 .portfolio__item {
   position: relative;
   overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 /* Link wrapping the image */
@@ -252,6 +255,7 @@ h3 {
   color: var(--clr-accent);
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
+  font-style: italic;
 }
 
 /* header */
@@ -534,10 +538,20 @@ header {
 .portfolio__item {
   background: var(--clr-accent);
   overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.portfolio__item:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .portfolio__item:focus {
@@ -643,12 +657,12 @@ header {
 }
 
 .experience__highlight {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.95) 0%, rgba(118, 75, 162, 0.95) 100%);
   color: var(--clr-light);
   padding: 2em;
-  border-radius: 8px;
+  border-radius: 12px;
   margin-bottom: 3em;
-  box-shadow: var(--bs);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .experience__highlight h3 {
@@ -663,49 +677,57 @@ header {
   text-align: center;
 }
 
-.experience__achievements {
+.experience__grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2em;
-  margin-bottom: 3em;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
-  .experience__achievements {
+  .experience__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1400px) {
-  .experience__achievements {
-    grid-template-columns: repeat(4, 1fr);
+  .experience__grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.achievement {
-  background: var(--clr-light);
-  border-left: 4px solid var(--clr-accent);
-  padding: 1.5em;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+.experience__card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  padding: 2em;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.achievement:hover {
+.experience__card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.5);
 }
 
-.achievement h4 {
-  color: var(--clr-dark);
+.card__icon {
+  font-size: 2.5rem;
   margin-bottom: 0.5em;
+  display: inline-block;
 }
 
-.achievement p {
-  color: #555;
+.card__title {
+  color: var(--clr-accent);
+  margin-bottom: 0.75em;
+  font-size: 1.25rem;
+}
+
+.card__description {
+  color: rgba(255, 255, 255, 0.9);
   line-height: 1.6;
+  margin-bottom: 1em;
 }
 
 .experience__tech {
@@ -720,23 +742,24 @@ header {
   margin-bottom: 1em;
 }
 
-.tech__tags {
+.card__tech {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.75em;
+  gap: 0.5em;
+  margin-top: 1em;
 }
 
-.tech__tag {
-  background: var(--clr-accent);
-  color: var(--clr-dark);
-  padding: 0.5em 1em;
-  border-radius: 20px;
-  font-size: 0.9rem;
+.tech__pill {
+  background: rgba(22, 224, 189, 0.2);
+  color: var(--clr-accent);
+  padding: 0.3em 0.8em;
+  border-radius: 12px;
+  font-size: 0.85rem;
   font-weight: 500;
-  transition: transform 0.2s ease;
+  border: 1px solid rgba(22, 224, 189, 0.3);
+  transition: background 0.2s ease;
 }
 
-.tech__tag:hover {
-  transform: scale(1.05);
+.tech__pill:hover {
+  background: rgba(22, 224, 189, 0.3);
 }
